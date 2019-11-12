@@ -23,7 +23,7 @@
 # guard OSS projects from potentially harmful custom jars in external 
 # contributions.
 #
-# Original script https://gist.github.com/ZacSweers/91597b19744f5fe314313ae9b11d6879
+# Source: https://github.com/ZacSweers/check-gradle-checksums
 #
 # It expects to be run from the root project directory, with 
 # gradle-wrapper.properties and gradle-wrapper.jar located in the 
@@ -35,8 +35,6 @@
 #      - wrapper
 #        | gradle-wrapper.jar
 #        | gradle-wrapper.properties
-#
-# My bash-fu isn't great and I'm sure this could be improved. Suggestions welcome in the comments!
 #
 
 # Make sure we have sha256sum
