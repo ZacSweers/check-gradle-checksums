@@ -54,7 +54,7 @@ sh check-gradle-checksums.sh
 
 If you want to only use a fixed version, you can use a fixed sha in the link above. 
 
-Example: `https://github.com/ZacSweers/check-gradle-checksums/blob/2592b4a8c4dbab0c0f71dc8a85494de408957aa9/check-gradle-checksums.sh`
+Example: `https://raw.githubusercontent.com/ZacSweers/check-gradle-checksums/c8dc2ae0756a8041e240cdc6fa6c38c256dfeab0/check-gradle-checksums.sh`
 
 License
 -------
