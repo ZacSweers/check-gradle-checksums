@@ -27,6 +27,8 @@ My bash-fu isn't great and I'm sure this could be improved. PRs are also welcome
 
 The script is executed by running one of the following commands in your terminal. You can do this via the command-line with either `curl` or `wget`. The script should be run from your gradle project's root directory.
 
+*Note: for the `sh` calls below, you may need to use `bash` directly if your CI environment's `sh` version doesn't support functions, such as on Travis-CI.* 
+
 ### via curl
 
 ```shell
