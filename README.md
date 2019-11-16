@@ -58,6 +58,8 @@ If you want to only use a fixed version, you can use a fixed sha in the link abo
 
 Example: `https://raw.githubusercontent.com/ZacSweers/check-gradle-checksums/c8dc2ae0756a8041e240cdc6fa6c38c256dfeab0/check-gradle-checksums.sh`
 
+For idempotent builds, you should use a fixed version like the above. This repo will never rewrite git history.
+
 License
 -------
 
